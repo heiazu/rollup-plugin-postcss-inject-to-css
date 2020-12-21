@@ -1,6 +1,6 @@
 {
-  "name": "rollup-plugin-postcss-inline2extract",
-  "version": "1.0.0",
+  "name": "rollup-plugin-postcss-inject-to-css",
+  "version": "0.0.1",
   "description": "rollup postcss 把inline的js文件转换成以css文件的方式引入",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heiazu/rollup-plugin-postcss-inline2extract-.git"
+    "url": "git+https://github.com/heiazu/rollup-plugin-postcss-inject-to-css-.git"
   },
   "keywords": [
     "postcss"

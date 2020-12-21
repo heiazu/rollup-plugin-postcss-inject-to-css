@@ -1,6 +1,6 @@
 # rollup-plugin-postcss-inject-to-css
 
-<!-- [![NPM version](https://img.shields.io/npm/v/rollup-plugin-postcss.svg?style=flat)](https://npmjs.com/package/rollup-plugin-postcss) [![NPM downloads](https://img.shields.io/npm/dm/rollup-plugin-postcss.svg?style=flat)](https://npmjs.com/package/rollup-plugin-postcss) -->
+[![NPM version](https://img.shields.io/npm/v/rollup-plugin-postcss-inject-to-css.svg?style=flat)](https://www.npmjs.com/package/rollup-plugin-postcss-inject-to-css) [![NPM downloads](https://img.shields.io/npm/dm/rollup-plugin-postcss-inject-to-css.svg?style=flat)](https://www.npmjs.com/package/rollup-plugin-postcss-inject-to-css)
 
 rollup-plugin-postcss的 `inject` 模式下，把导出后组件引用的xxx.scss.js转换为xxx.css进行引入
 
