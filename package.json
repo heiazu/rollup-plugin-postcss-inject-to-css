@@ -2,8 +2,10 @@
   "name": "rollup-plugin-postcss-inject-to-css",
   "version": "0.1.0",
   "description": "rollup postcss 把inline的js文件转换成以css文件的方式引入",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
   "scripts": {
+    "build": "rollup -c rollup.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,6 +18,7 @@
   "author": "Azu",
   "license": "ISC",
   "devDependencies": {
-    "@rollup/pluginutils": "^4.1.0"
+    "@rollup/pluginutils": "^4.1.0",
+    "rollup-plugin-commonjs": "^10.1.0"
   }
 }
