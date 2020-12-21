@@ -1,0 +1,21 @@
+{
+  "name": "rollup-plugin-postcss-inline2extract",
+  "version": "1.0.0",
+  "description": "rollup postcss 把inline的js文件转换成以css文件的方式引入",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heiazu/rollup-plugin-postcss-inline2extract-.git"
+  },
+  "keywords": [
+    "postcss"
+  ],
+  "author": "Azu",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/pluginutils": "^4.1.0"
+  }
+}
