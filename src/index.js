@@ -17,7 +17,7 @@ export default function inlineToExtract (options = {}) {
             let code
             code = /"[\s\S^"]*"/igm.exec(bundle[item].code)
             if (code[0]) {
-              code = code[0].replace(/\\n/g, '').replace(/\\"/g, '"')
+              code = code[0].replace(/\\n/g, '').replace(/\\"/g, '"').replace(/\\\\/g, '\\');
               if (!resolveCss.includes(item)) {
                 Object.assign(bundle[item], {
                   fileName: item.replace(/\.(scss|less)\.js/, '.css'),
